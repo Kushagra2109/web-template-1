@@ -1,0 +1,509 @@
+*{
+    font-family: poppins;
+}
+body{
+    margin:0px;
+}
+.container{
+    max-width: 1400px;
+    margin-inline: auto;
+    overflow: hidden;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.upper-nav{
+    background-color: #074e37;
+    
+    
+}
+.naav{
+    justify-content: space-between;
+    padding: 20px;
+}
+#sector{
+    padding: 17px;
+    border-radius: 7px;
+}
+.icon{
+    color: white;
+    font-size: 20px;
+}
+.icon:hover{
+    cursor: pointer;
+
+}
+
+
+/*================ lower nav================ */
+
+
+.lower-nav{
+    background-color: #86BC42;
+}
+
+.nav>ul{
+    gap: 15px;
+    list-style: none;
+    font-weight: 5px;
+    color: white;
+    padding: 0;
+}
+.nav>ul>li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav>ul>li:hover{
+    cursor: pointer;
+}
+/* ================== responsive navbar========== */
+
+.res-nav{
+    background-color: #074e37;
+    font-size: 20px;
+    display: none;
+
+}
+.res-nav-inside{
+    padding: 20px;
+    justify-content: space-between;
+    color: white;
+}
+
+/* =================slider=================== */
+
+/* .slider{
+    background-image: url(slideshow-pattern.png);
+    
+} */
+.bgi{
+   width: 100%;
+    position: relative;
+
+}
+
+.vege{
+    position: absolute;
+    z-index: 0;
+    right: 270px;
+    top: 270px;
+}
+.slider-inside-text{
+    position: absolute;
+    size: 400px;
+    top: 300px;
+    left: 250px;
+    z-index: 1;
+    
+}
+
+.slider-inside-text>h1{
+    font-size: 300%;
+}
+
+
+
+
+/* =================== strip=================== */
+
+.strip{
+    margin-top: -7px;
+    background-color: rgb(247, 245, 238);
+    margin-bottom: 48px;
+}
+
+.stripe-inside{
+    padding-top: 45px; 
+    padding-bottom: 45px; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stext{
+    flex-direction: column;
+    line-height: 0px;
+    align-items: baseline;
+    font-size: 12px;
+}
+.s-icons{
+    color: #86BC42;
+    font-size: 40px;
+    padding: 15px;
+}
+
+/* ===================featured product section ================*/
+.fproduct{
+    margin-bottom: 70px;
+}
+
+.fproduct-header{
+    justify-content: space-between;
+    font-size: 100%;
+}
+
+.header-right>ul{
+    list-style: none;
+    justify-content: space-between;
+    gap: 40px;
+    cursor: pointer;
+    color: gray;
+}
+
+.fproduct-fcards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.threeicons{
+    position: absolute;
+    gap: 40px;
+    padding-left: 60px;
+    padding-top: 170px;
+    display: none;
+}
+
+.fcards-c1:hover {
+    box-shadow: 10px 10px 30px 1px rgb(179, 177, 177);
+}
+.fcards-c1:hover .threeicons{
+    display: block;
+}
+.card-icons{
+    color:#074e37; 
+    margin: 5px; 
+    padding: 10px; 
+    border-radius: 50%; 
+    background-color: #dac581;
+}
+
+.card-icons:hover{
+    background-color: #86BC42;
+    color: white;
+}
+.fcards-c1{
+    flex-direction: column;
+    border: 0.4px solid rgb(219, 217, 217);
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    padding-inline: 2px;
+    cursor: pointer;
+    block-size: 100%;
+}
+
+.imgg{
+    width: 100%;
+    object-fit: contain;
+}
+
+.c1-textblock{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-inline: 15px;
+    line-height: 0px;
+    font-size: 100%;
+}
+.star{
+    color: #ffc78b;
+}
+
+/* ===================== category========================*/
+
+.category{
+    background-color: #f7f5ee ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.category-header{
+    justify-content: space-between;
+    
+} 
+.category-cards{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.category-c1{
+    flex-direction: column;
+}
+
+/* ===============top selling product section============== */
+
+.tsp{
+    padding-top: 80px;
+    
+}
+.tsp-header{
+    justify-content: space-between;
+}
+
+.discount-fcards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+    
+}
+
+/* ========================blog section=========================== */
+.blog-bcards{
+    justify-content: space-between;
+    
+    gap:23px;
+}
+.bcards-b1{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    background-color: white;
+    
+}
+.b1-textblock{
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: baseline;
+    padding-inline-start: 20px;
+    padding-inline-end: 80px;
+    
+}
+.graytext{
+    justify-content: flex-start;
+    gap: px;
+    margin-bottom: -20px;
+}
+
+
+/* =======================whatsapp section================== */
+
+.whatsapp{
+    background-color: #86BC42;
+}
+.whatsapp-inside{
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+/* ====================footer section============================= */
+
+.footer{
+    background-color: #074e37;
+    padding: 50px;
+    
+}
+.footer-inside{
+    justify-content: space-between;
+    
+    
+}
+ .company,.shop,.help{
+    flex-direction: column;
+    align-items: baseline;
+    flex-basis: 19%;
+   
+    
+}
+
+.uomo, .suscribe{
+    flex-direction: column;
+    align-items: baseline;
+    flex-basis: 23%;
+   
+}
+
+.social-media{
+    justify-content:flex-start;
+    gap: 30px;
+}
+
+.liscense{
+    justify-content: space-between;
+}
+.firstele{
+margin-bottom: 40px;
+}
+
+/* ========================media queries===================== */
+
+@media screen and  (max-width:991px){
+    .container{
+        max-width: 800px;
+        margin-inline: auto;
+        overflow: hidden;  
+    }
+    .upper-nav, .lower-nav{
+        display: none;
+    }
+    .res-nav{
+        display: block;
+    }
+    .vege{
+        width: 25%;
+        top: 100px;
+        right: 110px;
+        z-index: 0;
+    }
+    /* .slider-inside-text>h1{
+        font-size: 25px;
+    } */
+    .slider-inside-text{
+        top: 120px;
+        left: 120px;
+        font-size: 60%;
+        z-index: 1;
+         
+    }
+    .stripe-inside{
+        justify-content: space-evenly;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .stext{
+        flex-direction: column;
+        line-height: 0px;
+        align-items: baseline;
+        font-size: 12px;
+    }
+    .s-icons{
+        color: #86BC42;
+        font-size: 30px;
+        padding: 15px;
+    }
+    
+
+
+    .scard{
+        flex-basis: 50%;
+        justify-content: center;
+    }
+
+    .fproduct-header{
+        justify-content: space-between;
+        font-size: 80%;
+    }
+
+    
+    
+    /* .imgg{
+        width: 70%;
+        object-fit:cover;
+        align-self: center;
+    } */
+    /* .c1-textblock{
+        font-size: 70%;
+    } */
+    
+    .category-cards{
+    justify-content: space-evenly;
+    }
+    
+    .blog-bcards{
+        justify-content: space-evenly;
+    }
+    .whatsapp-inside{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-inside{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and  (max-width:767px){
+    .fproduct-fcards{
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .discount-fcards{
+        justify-content: space-evenly;
+    }
+    .vege{
+        width: 20%;
+        top: 120px;
+        right: 80px;
+        z-index: 0;
+    }
+    /* .slider-inside-text>h1{
+        font-size: 25px;
+    } */
+    .slider-inside-text{
+        top: 120px;
+        left: 120px;
+        font-size: 50%;
+        z-index: 1;
+    }
+
+    .fproduct-fcards{
+        justify-content: center;
+    }
+    .fcards-c1{
+        transform: scale(0.85);
+    }
+
+    .stripe-inside{
+        justify-content: space-evenly;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .stext{
+        flex-direction: column;
+        line-height: 0px;
+        align-items: baseline;
+        font-size: 10px;
+    }
+    .s-icons{
+        color: #86BC42;
+        font-size: 23px;
+        padding: 15px;
+    }
+    .scard{
+        flex-basis: 50%;
+        justify-content: center;
+    }
+    
+
+
+    .header-right>ul{
+        list-style: none;
+        justify-content: space-around;
+        
+        cursor: pointer;
+        color: gray;
+
+    }
+
+}
